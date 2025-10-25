@@ -1,0 +1,174 @@
+/* =================================
+   ESTILOS NETWARD - CSS MIGRADO
+   ================================= */
+
+/* Header principal */
+.main-header {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Alertas de Streamlit */
+.stAlert > div {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Mejoras para columnas responsivas */
+.stColumn {
+    padding: 0.5rem 0.25rem;
+}
+
+/* Asegurar que las métricas se vean bien en columnas */
+.metric-container {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0.25rem 0;
+    border-left: 4px solid #667eea;
+}
+
+/* Optimizar espacio en formularios */
+.stSelectbox > div > div {
+    margin-bottom: 0.5rem;
+}
+
+.stDateInput > div > div {
+    margin-bottom: 0.5rem;
+}
+
+/* Mejorar tablas en columnas estrechas */
+.dataframe {
+    font-size: 0.85rem;
+}
+
+/* Responsive design para pantallas pequeñas */
+@media (max-width: 768px) {
+    .stColumn {
+        padding: 0.25rem 0.1rem;
+    }
+    
+    .metric-container {
+        padding: 0.75rem;
+        margin: 0.15rem 0;
+    }
+}
+
+/* Mejorar contraste y legibilidad */
+.stMetric > div {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 0.25rem 0;
+}
+
+/* Estilos para alertas de stock */
+.stock-alert-critical {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    border-left: 4px solid #d63031;
+    box-shadow: 0 2px 4px rgba(214, 48, 49, 0.3);
+    animation: pulse-red 2s infinite;
+}
+
+.stock-alert-warning {
+    background: linear-gradient(135deg, #feca57, #ff9ff3);
+    color: #2d3436;
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    border-left: 4px solid #fdcb6e;
+    box-shadow: 0 2px 4px rgba(253, 203, 110, 0.3);
+}
+
+.stock-alert-success {
+    background: linear-gradient(135deg, #48cab2, #2dd4bf);
+    color: white;
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    border-left: 4px solid #00b894;
+    box-shadow: 0 2px 4px rgba(0, 184, 148, 0.3);
+}
+
+/* Animación para alertas críticas */
+@keyframes pulse-red {
+    0% { box-shadow: 0 2px 4px rgba(214, 48, 49, 0.3); }
+    50% { box-shadow: 0 4px 8px rgba(214, 48, 49, 0.6); }
+    100% { box-shadow: 0 2px 4px rgba(214, 48, 49, 0.3); }
+}
+
+/* Mejoras para dashboard de alertas */
+.alert-dashboard {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #dee2e6;
+}
+
+/* Estilos para métricas de stock */
+.stock-metric-critical {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.stock-metric-warning {
+    background: linear-gradient(135deg, #feca57, #ff9ff3);
+    color: #2d3436;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.stock-metric-success {
+    background: linear-gradient(135deg, #48cab2, #2dd4bf);
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+/* Estilos legacy (mantener compatibilidad) */
+h1 {
+    text-align: center;
+    color: #0066ff;
+    margin-bottom: 20px;
+}
+
+.stSubheader {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo para botones */
+.stButton > button {
+    background-color: #0066ff;
+    color: white !important;
+    border-radius: 5px;
+    padding: 10px 24px;
+    width: 100%;
+}
+
+/* Arreglar el problema del hover en botones */
+.stButton > button:hover {
+    color: white !important;
+    background-color: #0052cc;
+}
+
+/* Asegurar que el texto no desaparezca en ningún estado */
+.stButton > button:active, .stButton > button:focus {
+    color: white !important;
+}
+
+/* Estilo para campos de entrada */
+input {
+    border-radius: 5px;
+}
