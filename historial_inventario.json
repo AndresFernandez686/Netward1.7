@@ -1,0 +1,152 @@
+[
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Almendrado",
+    "cantidad": 12,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Bombon Crocante",
+    "cantidad": 8,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Bombon Escoces",
+    "cantidad": 16,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Bombon Escoces",
+    "cantidad": 2,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Almendrado",
+    "cantidad": 2,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Almendrado",
+    "cantidad": 2,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Caja de bombon Suizo",
+    "cantidad": 9,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Caja Bombon Crocante",
+    "cantidad": 12,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Bombon Escoces",
+    "cantidad": 14,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Familiar 2",
+    "cantidad": 11,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Caja almendrado",
+    "cantidad": 3,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-24",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Familiar 4",
+    "cantidad": 4,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-25",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Caja Bombon Crocante",
+    "cantidad": 2,
+    "modo": "Caja",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-25",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Unidad Bombon Escoces",
+    "cantidad": 5,
+    "modo": "Unidad",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  },
+  {
+    "fecha": "2025-10-25",
+    "usuario": "empleado1",
+    "categoria": "Impulsivo",
+    "producto": "Caja palito Bombon",
+    "cantidad": 7,
+    "modo": "Caja",
+    "tipo_inventario": "Diario",
+    "tienda_id": "T001"
+  }
+]
